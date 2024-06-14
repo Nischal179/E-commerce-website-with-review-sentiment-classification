@@ -1,0 +1,507 @@
+body, html {
+    height: 100%;
+}
+
+/*a{
+    color: #F2C75F;
+}
+*/
+h1,h2,h3,h4,h5{
+    color: #37475A !important;
+}
+
+.custom-active {
+    /*color: #37475A !important;*/
+    border-bottom: #fbedcc;
+    /*background-color: #fbedcc;
+    background-repeat: repeat-x;
+    -webkit-box-shadow: inset 0 3px 9px rgba(0,0,0,.075);
+    box-shadow: inset 0 3px 9px rgba(0,0,0,.075);*/
+}
+.navbar-default .navbar-nav > li > a {
+     color: #F2C75F; 
+}
+
+.font-bold{
+    font-weight: bolder;
+}
+
+/* F2C75F */
+
+.bg-primary{
+    background-color: #37475A;
+}
+.bg-secondary{
+    background-color: #232F3E !important;
+}
+.bg-secondary-ii{
+    background-color: #37475A !important;
+}
+.bg-gold{
+    background-color: #;
+}
+.text-primary{
+    color: #F2C75F !important;
+}
+.text-secondary{
+    color: #37475A !important;
+}
+.text-secondary-ii{
+    color: #37475A !important;
+}
+
+.nav.inline.footer{
+    margin-left: 0px;
+}
+.nav.inline.footer > li{
+    padding: 8px;
+    color: #F6D994;
+}
+
+.fa-1-half-x{
+    font-size: 1.5em;
+}
+
+.error-msg{
+    color: #900;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('../static/images/fresh_veggies.jpg');
+
+    /* Full height */
+    height: 60%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.shop-bronte.parallax {
+    /* The image used */
+    /*background: linear-gradient(rgba(0,0,0, .6), rgba(0,0,0, 0.5)), url('../greengrocer/images/amazon.png');*/
+    background-image: url('../static/images/city_blank.png');
+
+    /* Full height */
+    height: 50%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Testimonial Div */
+
+.testimonial-div {
+    padding: 5px;
+/*    height: 40%;
+    width: 25%;*/
+    max-height: 250px;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+}
+
+
+.bg-footer{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#83913b+17,83913b+17,83913b+28,5b6529+100 */
+    background: #83913b; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover,  #83913b 17%, #83913b 17%, #83913b 28%, #5b6529 100%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover,  #83913b 17%,#83913b 17%,#83913b 28%,#5b6529 100%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center,  #83913b 17%,#83913b 17%,#83913b 28%,#5b6529 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#83913b', endColorstr='#5b6529',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    /*border-color: #DDDDDD;*/
+    /*border-bottom: 2px solid #efefef;*/
+}
+
+
+/* OTHERS */
+
+.panel-body.outer-body{
+    min-height: 550px;
+}
+
+.dummy-image{
+    height: 80%;
+    width: 80%;
+}
+
+.font-thin{
+    font-weight: 300;
+}
+
+/* -------------------------------- */
+
+/* end user custom css */
+.end-user.active_nav{
+    background-color: #EEEEEE;
+}
+
+/* --- */
+
+/* sadmin OVERRIDE */
+
+#page-wrapper {
+    background-color: #EFEFEF; 
+    padding: 15px 0px;
+    min-height: 730px;
+}
+
+.form-control{
+    border-radius: 0px !important;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+
+select{
+    border-radius:0px !important;
+}
+/*@media (min-width: 768px)
+#page-wrapper {
+    position: inherit;
+    margin: 0 0 0 250px;
+    border-left: 1px solid #e7e7e7;
+}*/
+
+.alert{
+    border-radius: 0px !important;
+}
+
+.display-hidden{
+    display: hidden;
+}
+
+
+
+/* DROP DOWN CSS */
+
+/* Dropdown Button */
+.dropbtn {
+    color: white;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.active_browse_nav{
+    background: rgb(25,29,33);
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 260px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 999999;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    z-index: 99999;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover, .hover-blue:hover {
+    background-color: #292F36;
+}
+.dropbtn:focus{
+    outline: none;
+}
+
+
+
+/* PRODUCT DISPLAY CSS -- Browse product by trader */
+.col-item
+{
+    border: 1px solid #E1E1E1;
+    border-radius: 5px;
+    background: #FFF;
+}
+.col-item .photo img
+{
+    margin: 0 auto;
+    width: 100%;
+}
+
+.col-item .info
+{
+    padding: 10px;
+    border-radius: 0 0 5px 5px;
+    margin-top: 1px;
+}
+
+.col-item:hover .info {
+    background-color: #EFEFEF;
+}
+.col-item .price
+{
+    /*width: 50%;*/
+    float: left;
+    margin-top: 5px;
+}
+
+.col-item .price h5
+{
+    line-height: 20px;
+    margin: 0;
+}
+
+.price-text-color
+{
+    color: #219FD1;
+}
+
+.col-item .info .rating
+{
+    color: #777;
+}
+
+.col-item .rating
+{
+    /*width: 50%;*/
+    float: left;
+    font-size: 17px;
+    text-align: right;
+    line-height: 52px;
+    margin-bottom: 10px;
+    height: 52px;
+}
+
+.col-item .separator
+{
+    border-top: 1px solid #E1E1E1;
+}
+
+.clear-left
+{
+    clear: left;
+}
+
+.col-item .separator p
+{
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.col-item .separator p i
+{
+    margin-right: 5px;
+}
+.col-item .btn-add
+{
+    width: 50%;
+    float: left;
+}
+
+.col-item .btn-add
+{
+    border-right: 1px solid #E1E1E1;
+}
+
+.col-item .btn-details
+{
+    width: 50%;
+    float: left;
+    padding-left: 10px;
+}
+.controls
+{
+    margin-top: 20px;
+}
+[data-slide="prev"]
+{
+    margin-right: 10px;
+}
+
+
+/* BADGE */
+
+.badge-danger {
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: red;
+    border-radius: 10px;
+}
+
+
+/* RIBBON CSS */
+
+button:active {
+
+  outline:none;
+}
+
+button.ribbon {
+  
+  outline:none;
+  outline-color: transparent;
+}
+button.ribbon:before, button.ribbon:after {
+  top: 5px;
+  z-index: -10;
+}
+button.ribbon:before {
+  border-color: #53dab6 #53dab6 #53dab6 transparent;
+  left: -25px;
+  border-width: 17px;
+}
+button.ribbon:after {
+  border-color: #53dab6 transparent #53dab6 #53dab6;
+  right: -25px;
+  border-width: 17px;
+}
+
+/*button:before, button:after {
+  content: '';
+  position: absolute;
+  height: 0;
+  width: 0;
+  border-style: solid;
+  border-width: 0;
+  outline:none;
+}*/
+
+button.btn-default:before {
+  border-color: #757575 #757575 #757575 transparent;
+    }
+    button.btn-default:after {
+  border-color: #757575 transparent #757575 #757575;
+    }
+    
+    
+    
+    button.btn-primary:before {
+  border-color: #2e6da4 #2e6da4 #2e6da4 transparent;
+    }
+    button.btn-primary:after {
+  border-color: #2e6da4 transparent #2e6da4 #2e6da4;
+    }
+    
+    
+    button.btn-success:before {
+  border-color: #398439 #398439 #398439 transparent;
+    }
+    button.btn-success:after {
+  border-color: #398439 transparent #398439 #398439;
+    }
+    
+    
+    button.btn-info:before {
+  border-color: #269abc #269abc #269abc transparent;
+    }
+    button.btn-info:after {
+  border-color: #269abc transparent #269abc #269abc;
+    }
+    
+    
+    button.btn-warning:before {
+  border-color: #d58512 #d58512 #d58512 transparent;
+    }
+    button.btn-warning:after {
+  border-color: #d58512 transparent #d58512 #d58512;
+    }
+    
+    
+    button.btn-danger:before {
+  border-color: #ac2925 #ac2925 #ac2925 transparent;
+    }
+    button.btn-danger:after {
+  border-color: #ac2925 transparent #ac2925 #ac2925;
+    }
+    
+    
+/* NEW PRODUCT LINE UP DESIGN */
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700&subset=latin-ext,vietnamese');   
+body{font-family: 'Quicksand', sans-serif;}
+   h4{
+        font-weight: 600;
+    }
+    p{
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    .price{
+        font-size: 30px;
+        margin: 0 auto;
+        color: #333;
+    }
+
+    .thumbnail{
+        opacity:0.70;
+        -webkit-transition: all 0.5s; 
+        transition: all 0.5s;
+    }
+    .thumbnail:hover{
+        opacity:1.00;
+        box-shadow: 0px 0px 10px #4bc6ff;
+    }
+    .line{
+        margin-bottom: 5px;
+    }
+    @media screen and (max-width: 770px) {
+        .right{
+            float:left;
+            width: 100%;
+        }
+    }
+    span.thumbnail {
+        border: 1px solid #00c4ff !important;
+    border-radius: 0px !important;
+    -webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.16);
+    -moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.16);
+    box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.16);
+    padding: 10px;
+}
+button {    margin-top: 6px;
+}
+.right {
+    float: right;
+    border-bottom: 2px solid #0a5971;
+}
+.btn-info {
+    color: #fff;
+    background-color: #19b4e2;
+    border-color: #19b4e2;
+    font-size:13px;
+    font-weight:600;
+}

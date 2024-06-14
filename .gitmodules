@@ -1,0 +1,3 @@
+[submodule "Implementation/Source Code/PHP Ecommerce website/ShopHub"]
+	path = Implementation/Source Code/PHP Ecommerce website/ShopHub
+	url = https://github.com/Nischal179/E-commerce-website-with-review-sentiment-classification.git

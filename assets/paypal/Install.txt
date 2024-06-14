@@ -1,0 +1,2 @@
+1. Copy all solution files to a directory on your web server (eg. www.domain.com/pos/)
+2. Load the application in a web browser and follow the steps in the Instructions page.
